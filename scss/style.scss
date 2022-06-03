@@ -80,90 +80,56 @@ aside {
             height: 5px;
             background: var(--hint);
             position: relative;
-            .bar-skill-progress.html {
+            .bar-skill-progress {
                 position: absolute;
                 top: 0;
                 left: 0;
                 height: 5px;
                 background: var(--light);
-                width: 70%;
-            }
-            .bar-skill-dot.html {
-                position: absolute;
-                height: 10px;
-                width: 10px;
-                background: var(--dark);
-                left: calc(70% - 5px);
-                top: -2.5px;
-                transform: rotate(45deg);
-            }
-            .bar-skill-progress.boot {
-                position: absolute;
-                top: 0;
-                left: 0;
-                height: 5px;
-                background: var(--light);
-                width: 80%;
-            }
-            .bar-skill-dot.boot {
-                position: absolute;
-                height: 10px;
-                width: 10px;
-                background: var(--dark);
-                left: calc(80% - 5px);
-                top: -2.5px;
-                transform: rotate(45deg);
-            }
-            .bar-skill-progress.scss {
-                position: absolute;
-                top: 0;
-                left: 0;
-                height: 5px;
-                background: var(--light);
-                width: 70%;
-            }
-            .bar-skill-dot.scss {
-                position: absolute;
-                height: 10px;
-                width: 10px;
-                background: var(--dark);
-                left: calc(70% - 5px);
-                top: -2.5px;
-                transform: rotate(45deg);
-            }
-            .bar-skill-progress.php {
-                position: absolute;
-                top: 0;
-                left: 0;
-                height: 5px;
-                background: var(--light);
-                width: 60%;
             }
             .bar-skill-dot {
                 position: absolute;
                 height: 10px;
                 width: 10px;
                 background: var(--dark);
-                left: calc(60% - 5px);
                 top: -2.5px;
                 transform: rotate(45deg);
             }
+            .bar-skill-progress.html {
+                width: 70%;
+            }
+            .bar-skill-dot.html {
+                left: calc(70% - 5px);
+            }
+            .bar-skill-progress.js {
+                width: 60%;
+            }
+            .bar-skill-dot.js {
+                left: calc(60% - 5px);
+            }
+            .bar-skill-progress.boot {
+                width: 80%;
+            }
+            .bar-skill-dot.boot {
+                left: calc(80% - 5px);
+            }
+            .bar-skill-progress.scss {
+                width: 70%;
+            }
+            .bar-skill-dot.scss {
+                left: calc(70% - 5px);
+            }
+            .bar-skill-progress.php {
+                width: 60%;
+            }
+            .bar-skill-dot {
+                left: calc(60% - 5px);
+            }
             .bar-skill-progress.sym {
-                position: absolute;
-                top: 0;
-                left: 0;
-                height: 5px;
-                background: var(--light);
                 width: 60%;
             }
             .bar-skill-dot.sym {
-                position: absolute;
-                height: 10px;
-                width: 10px;
-                background: var(--dark);
                 left: calc(60% - 5px);
-                top: -2.5px;
-                transform: rotate(45deg);
             }
         }
         .stars-container {
